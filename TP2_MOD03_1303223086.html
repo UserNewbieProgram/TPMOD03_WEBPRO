@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP_MOD03_1303223086</title>
+</head>
+<body>
+    <!-- Tag h1 digunakan untuk judul utama halaman -->
+    <h1>Profil Pribadi</h1>
+
+    <!-- Bagian profile ini menggunakan div untuk mengelompokkan konten -->
+    <div>
+        <!-- Menggunakan tabel agar foto dan video tampil sejajar -->
+        <table>
+            <tr>
+                <!-- Foto Profil -->
+                <td>
+                    <p><center><b>Foto Profil</b></center></p>
+                    <img src="PP_Merah.png" alt="Foto Profil" width="200" height="260">
+                </td>
+                <!-- Video Perkenalan -->
+                <td>
+                    <p><center><b>Video Perkenalan</b></center></p>
+                    <video controls width="400" height="200">
+                        <source src="video_perkenalan.mp4" type="video/mp4">
+                        Browser Anda tidak mendukung video.
+                    </video>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Bagian Tentang Saya -->
+    <h2>Tentang Saya</h2>
+    <p>Halo! Saya Nadhif Ahmad M.Z dengan NIM 1303223086 adalah seorang pengembang web antusias dengan passion di bidang teknologi dan desain kreatif.</p>
+
+    <!-- Table digunakan untuk menampilkan daftar keterampilan -->
+    <h2><b>Keterampilan</b></h2>
+    <table>
+        <!-- Tag th digunakan untuk judul kolom -->
+        <tr>
+            <th>Keterampilan</th>
+            <th>Tingkat</th>
+        </tr>
+        <!-- Tag td digunakan untuk data sel -->
+        <tr>
+            <td>HTML/CSS</td>
+            <td>Mahir</td>
+        </tr>
+        <tr>
+            <td>JavaScript</td>
+            <td>Menengah</td>
+        </tr>
+        <tr>
+            <td>Python</td>
+            <td>Pemula</td>
+        </tr>
+    </table>
+
+    <!-- Form digunakan untuk membuat bagian kontak -->
+    <h2>Hubungi Saya</h2>
+    <form action="#" method="post">
+        <!-- Input untuk menerima nama -->
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama">
+        <br>
+        
+        <!-- Input untuk menerima email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <br>
+
+        <!-- Textarea untuk menerima pesan -->
+        <label for="pesan">Pesan:</label>
+        <br>
+        <textarea id="pesan" name="pesan" rows="4" cols="25"></textarea>
+        <br><br>
+        
+        <!-- Button untuk mengirimkan form -->
+        <button type="submit">Kirim Pesan</button>
+    </form>
+
+    <!-- Tautan ke media sosial -->
+    <h2>Media Sosial:</h2>
+    <a href="https://linkedin.com" target="_blank">LinkedIn</a> |
+    <a href="https://github.com" target="_blank">GitHub</a> |
+    <a href="https://twitter.com" target="_blank">Twitter</a><br>
+</body>
+</html>
